@@ -23,7 +23,10 @@ export default function Router() {
         { path: 'app', element: <DashboardApp /> },
         { path: 'user', element: <User /> },
         { path: 'products', element: <Products /> },
-        { path: 'blog', element: <Blog /> }
+        { path: 'blog-1', element: <Blog /> },
+        { path: 'blog-2', element: <>Hello From Blog 2</> },
+        { path: 'blog-3', element: <>Hello From Blog 3</> },
+        { path: 'blog-4', element: <>Hello From Blog 4</> }
       ]
     },
     {

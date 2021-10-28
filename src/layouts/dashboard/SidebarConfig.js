@@ -29,13 +29,28 @@ const sidebarConfig = [
   },
   {
     title: 'blog',
-    path: '/dashboard/blog',
     icon: getIcon(fileTextFill),
+    path: '/dashboard/blog',
     // collapse submenu
     children: [
       {
-        title: 'blog',
-        path: '/dashboard/blog',
+        title: 'blog 1',
+        path: '/dashboard/blog-1',
+        icon: getIcon(fileTextFill)
+      },
+      {
+        title: 'blog 2',
+        path: '/dashboard/blog-2',
+        icon: getIcon(fileTextFill)
+      },
+      {
+        title: 'blog 3',
+        path: '/dashboard/blog-3',
+        icon: getIcon(fileTextFill)
+      },
+      {
+        title: 'blog 4',
+        path: '/dashboard/blog-4',
         icon: getIcon(fileTextFill)
       }
     ]
